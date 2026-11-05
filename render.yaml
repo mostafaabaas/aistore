@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: aistore
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
