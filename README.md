@@ -102,11 +102,11 @@ stores) + the standard book/WhatsApp CTAs with `utm_source=aistore`.
 ## Deploy status (Nov 6, 2026)
 
 - **Repo**: https://github.com/mostafaabaas/aistore (private, branch `main`) — source pushed Nov 6, 2026.
-- **Hosting**: PENDING-DASHBOARD — the Render Static Site service has **not** been created yet.
-  Creating it requires the Render dashboard (no Render API key is available to the
-  automation): Render Dashboard → New → Static Site → connect this repo — the repo's
-  `render.yaml` blueprint pre-fills the service name (`aistore`) and publish path (`.`).
-  Expected live URL once created: https://aistore.onrender.com
+- **Hosting**: LIVE since Nov 6, 2026 at https://aistore-rbqw.onrender.com —
+  Render suffixed the service name (`aistore` was already taken), so the plain
+  `aistore.onrender.com` URL does NOT resolve (it shows a Render loading page);
+  the live URL is the suffixed one. NOTE: the service has NO push webhook —
+  every push needs a manual dashboard deploy + live check.
 - **Domain attach**: separate later batch (see "What remains" item 4 above) — and
   the $56 marketplace listing (item 1) + Dec 2026 renewal (item 2) stay open
   until the support-removal/lapse and the owner's renewal decision.
