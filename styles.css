@@ -144,6 +144,7 @@ html[dir="ltr"] .eyebrow{text-transform:uppercase}
 .gcard .read{margin-top:16px;font-weight:600;font-size:14.5px}
 .guide{margin-bottom:16px}
 .guide .g-tag{font-size:12.5px;font-weight:700;color:var(--cyan);letter-spacing:.05em;margin-bottom:10px}
+.guide .pub-date{font-size:13px;color:var(--ink-mute);margin:-4px 0 12px}
 html[dir="ltr"] .guide .g-tag{text-transform:uppercase}
 .guide h3{font-size:23px;margin-bottom:14px;line-height:1.45}
 .guide h4{font-size:16.5px;margin:22px 0 8px}
